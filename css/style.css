@@ -1,0 +1,57 @@
+@font-face{
+    font-family: 'PatrickHand';
+    src: url(../fonts/PatrickHand-Regular.ttf) format('truetype');
+}
+
+:root{
+    background-color: rgb(221, 217, 217);
+    font-family: 'PatrickHand', sans-serif;
+    font-size: 20px;
+}
+
+*{
+    margin:auto;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.rules{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 50%;
+}
+
+img{
+    width: auto;
+    height: 500px;
+}
+
+input{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+input[type="button"]:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    align-self: center;
+    font-size: 56px;
+}
+
+.disclaimer{
+    font-size: 18px;
+}
