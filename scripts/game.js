@@ -16,8 +16,8 @@ function computerPlay() {
 
 //play a round of rock, paper, scissors
 function playRound(playerSelection, computerSelection) {
-    var playerSelect = playerSelection.toLowerCase();
-    var computerSelect = computerSelection.toLowerCase();
+    let playerSelect = playerSelection.toLowerCase();
+    let computerSelect = computerSelection.toLowerCase();
 
     //display the chosen values of each user
     console.log(`You chose ${playerSelect}`);
