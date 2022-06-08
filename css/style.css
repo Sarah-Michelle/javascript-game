@@ -5,8 +5,8 @@
 
 :root{
     background-color: rgb(221, 217, 217);
-    font-family: 'PatrickHand', sans-serif;
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
 *{
@@ -34,12 +34,15 @@ img{
 }
 
 input{
+    font-family: 'PatrickHand', sans-serif;
+    font-size: 32px;
     border-radius: 10px;
     background-color: black;
     color: white;
     margin-top: 10px;
     width: 150px;
     height: 50px;
+    cursor: pointer;
 }
 
 input[type="button"]:hover{
@@ -48,10 +51,16 @@ input[type="button"]:hover{
 }
 
 h1{
-    align-self: center;
+    font-family: 'PatrickHand', sans-serif;
     font-size: 56px;
 }
 
-.disclaimer{
-    font-size: 18px;
+p.subtitle, .disclaimer{
+    font-family: 'PatrickHand', sans-serif;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+li{
+    padding: 5px;
 }
